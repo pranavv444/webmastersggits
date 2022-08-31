@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&family=Barlow+Condensed&family=Barlow:wght@100&family=Bree+Serif&family=Josefin+Sans:ital,wght@0,400;1,300;1,400;1,600&family=League+Gothic&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@700&family=Ubuntu:ital@1&display=swap");
+body {
+  background: linear-gradient(to left, #0c0c0c 0%, #253a43 99.22%);
+}
+:root {
+  --barlow: "Barlow", sans-serif;
+  --poppin: "Poppins", sans-serif;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  overflow-y: hidden;
+}
+.super-container {
+  background-image: url("/bg.png");
+  z-index: 1;
+  color: white;
+  height: 95vh;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-x: right;
+}
+/* HEADINGS */
+
+#sun-logo {
+  height: 25px;
+  width: 25px;
+}
+
+.nav-wrapper a {
+  float: right;
+  color: #ffffff;
+  text-align: center;
+  margin-right: 28px;
+  padding: 22px 15px 10px 15px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 19px;
+  display: flexbox;
+  font-family: var(--barlow);
+}
+.nav-wrapper a:hover {
+  margin-top: 0;
+  border-bottom: 2px solid white;
+}
+#main-logo {
+  height: 89%;
+  width: 45%;
+  display: flexbox;
+  float: right;
+}
+.main-content {
+  height: 80%;
+  width: 40%;
+  margin-left: 8%;
+  text-align: left;
+}
+#test {
+  font-family: var(--poppin);
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  margin: 80px 0px 0px 60px;
+}
+.text {
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+}
+.text2 {
+  margin-top: 35px;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.bottom {
+  position: absolute;
+  width: 100%;
+  height: 30vh;
+  left: 0px;
+  top: 71%;
+
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.52),
+    rgba(0, 0, 0, 0.56)
+  );
+  backdrop-filter: blur(50px);
+}
+.bottom-container {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0px auto;
+}
+
+.bottom-center {
+  width: 250px;
+  height: 373px;
+  color: #ffffff;
+  margin: 40px 0px 0px 0px;
+}
+.bottom-right {
+  width: 250px;
+  height: 373px;
+  color: #ffffff;
+  margin: 40px 0px 0px 0px;
+}
+#laptop {
+  position: absolute;
+  width: fit-content;
+  height: 220px;
+  left: 170px;
+}
+@media screen {
+}
